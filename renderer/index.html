@@ -19,12 +19,13 @@
     <div
       class="max-w-xl m-auto h-screen flex flex-col align-center justify-center"
     >
-      <div class="flex flex-col w-full items-center justify-center bg-grey-lighter">
+      <div class="flex flex-col w-full items-center justify-center bg-grey-lighter" id="dropzone">
         <label
           class="w-64 flex flex-col items-center px-4 py-7 bg-white text-gray-500 rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:text-teal-800"
         >
           <img src="./images/logo.svg" width="32" />
-          <span class="mt-2 leading-normal">Select an image to resize</span>
+          <span class="mt-2 leading-normal text-center" id="span1">Select an image to resize <!-- or drag and drop --> </span>
+          <span class="mt-2 leading-normal text-center" id="span2"></span>
           <input id="img" type="file" class="hidden" />
         </label>
       </div>
